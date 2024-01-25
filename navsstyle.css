@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lohit Assamese";
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: mediumpurple;
+    background-size: cover;
+    background-position: center;
+    background-image: url("backgroundimage.jpg");width: 100%;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: teal;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.Content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: midnightblue;
+    position: relative;
+}
+.Content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.Content h1{
+    font-family: "Liberation Serif";
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    color: rebeccapurple;
+}
+
+.Content .cn a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+.Content .cn{
+    width: 150px;
+    height: 40px;
+    background-color:olivedrab ;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cn :hover{
+    background-color: teal;
+}
+.Content span{
+    color: yellow;
+    font-size: 25px;
+}
+.form{
+    width: 250px;
+    height: 270px;
+    background-color: darkturquoise;
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form input{
+    background-color: palegreen;
+    color: black;
+}
+.form p{
+    color: darkmagenta;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.form h2{
+    font-size: 22px;
+    color: plum;
+    font-family: "Liberation Serif";
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    background-color: teal;
+    border-radius: 10px;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    color: black;margin-top: 10px;
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkmagenta;
+}
+.form .link{
+    font-family: "Liberation Serif";
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
